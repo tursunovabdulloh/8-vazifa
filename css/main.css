@@ -117,6 +117,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 20px 0;
 }
 
 .header-logo {
@@ -129,22 +130,27 @@ a {
   margin-right: 146px;
 }
 
+nav {
+  margin-left: 130px;
+}
+
 .tel_nomer {
   font-family: sans-serif;
 }
 
-.number {
+.header-number {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 63px;
 }
 
-.svg1 {
-  margin-right: 18px;
-  padding: 2.98px 3px;
+.number-list1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-.img2 {
+.number-list2 {
   display: flex;
   align-items: center;
   gap: 7px;
