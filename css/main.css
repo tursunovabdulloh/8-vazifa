@@ -113,15 +113,39 @@ a {
   src: url("../fonts/raleway-v29-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 .header-container {
+  width: 1200px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .header-logo {
   padding: 20px 0;
-  margin-right: 143px;
 }
 
 .nav-list {
   display: flex;
+  gap: 40px;
+  margin-right: 146px;
+}
+
+.tel_nomer {
+  font-family: sans-serif;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.svg1 {
+  margin-right: 18px;
+  padding: 2.98px 3px;
+}
+
+.img2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }/*# sourceMappingURL=main.css.map */
