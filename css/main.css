@@ -112,12 +112,36 @@ a {
   font-weight: 900;
   src: url("../fonts/raleway-v29-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* lato-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/lato-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lato-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/lato-v24-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 .header-container {
   width: 1200px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 .header-logo {
@@ -158,7 +182,6 @@ nav {
 
 .main {
   background-image: url(../../images/brat.png);
-  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -166,12 +189,62 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.mian-title {
+.main-title {
   margin-bottom: 28px;
+  font-family: "Lato";
+  font-size: 76px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 110px;
+  text-align: center;
 }
 
 .main-p {
   margin-bottom: 50px;
+  font-family: " Raleway";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #fff;
+  text-align: center;
+}
+
+.main-btn {
+  width: 260px;
+  height: 60px;
+  padding: 22px 56px 22px 56px;
+  background-color: #ae7b3c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  margin-bottom: 312px;
+}
+
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reklama-1 {
+  width: 458px;
+  border-left: 1px solid rgb(211, 41, 41);
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-2-h2 {
+  font-family: "Raleway";
+  text-align: center;
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 75px;
 }/*# sourceMappingURL=main.css.map */

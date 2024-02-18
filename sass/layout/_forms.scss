@@ -1,16 +1,64 @@
 .main {
   background-image: url(../../images/brat.png);
-  background-position: center;
   background-repeat: no-repeat;
 }
 .section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.mian-title {
+.main-title {
   margin-bottom: 28px;
+  font-family: "Lato";
+  font-size: 76px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 110px;
+  text-align: center;
 }
 .main-p {
   margin-bottom: 50px;
+  font-family: " Raleway";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #fff;
+  text-align: center;
+}
+.main-btn {
+  width: 260px;
+  height: 60px;
+  padding: 22px 56px 22px 56px;
+  background-color: #ae7b3c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  margin-bottom: 312px;
+}
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reklama-1 {
+  width: 458px;
+  border-left: 1px solid rgb(211, 41, 41);
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+}
+.section-2-h2 {
+  font-family: "Raleway";
+  text-align: center;
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+.reklama-n1 {
+}
+.n1-paragrph {
 }
