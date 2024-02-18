@@ -45,11 +45,13 @@
 }
 .reklama-1 {
   width: 458px;
-  border-left: 1px solid rgb(211, 41, 41);
+  border-left: 1px solid #282b2241;
+  padding-left: 30px;
 }
 .section-2 {
   display: flex;
   justify-content: center;
+  margin-bottom: 140px;
 }
 .section-2-h2 {
   font-family: "Raleway";
@@ -58,7 +60,58 @@
   font-weight: 500;
   margin-bottom: 75px;
 }
+.reklama-2 {
+  width: 458px;
+  border-left: 1px solid #282b2241;
+  padding-left: 30px;
+}
+.reklama-3 {
+  width: 454px;
+  border-left: 1px solid #282b2241;
+  padding-left: 30px;
+}
 .reklama-n1 {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  color: #282b2287;
+  margin-bottom: 60px;
 }
 .n1-paragrph {
+  font-family: " Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #3d4a39;
+  margin-bottom: 30px;
+}
+.reklama-n2 {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  color: #282b2287;
+  margin-bottom: 60px;
+}
+.n2-paragrph {
+  font-family: " Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #3d4a39;
+  margin-bottom: 30px;
+}
+.reklama-n3 {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  color: #282b2287;
+  margin-bottom: 60px;
+}
+.n3-paragrph {
+  font-family: " Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #3d4a39;
+  margin-bottom: 30px;
 }
