@@ -198,6 +198,7 @@ nav {
 }
 
 .section-4-div1 {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,24 +251,229 @@ nav {
   flex-direction: column;
   align-items: center;
   padding-bottom: 800px;
+  position: relative;
 }
 
 .section-5-h2 {
   padding-bottom: 80px;
 }
 
+.furniture-1 {
+  position: absolute;
+  left: -250px;
+  top: 80px;
+}
+
+.furniture-2 {
+  position: absolute;
+  top: 269px;
+  left: 920px;
+}
+
 .wrp-1 {
+  position: relative;
   display: flex;
   align-items: start;
-  border-top: 1px solid #000;
+  gap: 600px;
+  border-top: 2px solid rgba(0, 0, 0, 0.2470588235);
   padding-top: 50px;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2470588235);
   padding-bottom: 50px;
 }
 
 .wrp-1-p {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(40, 43, 34, 0.1882352941);
+}
+
+.wrp-1-h2 {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #282b22;
+}
+
+.wrp-1-p2 {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #282b22;
+}
+
+.wrp-1_2 {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 0.2470588235);
+}
+
+.wrp-2 {
+  display: flex;
+  align-items: start;
   gap: 600px;
+  border-top: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-top: 50px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-bottom: 50px;
+}
+
+.wrp-2-p {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(40, 43, 34, 0.1882352941);
+}
+
+.wrp-2-h2 {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #282b22;
+}
+
+.wrp-2-p2 {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #282b22;
+}
+
+.wrp-2_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 0.2470588235);
+}
+
+.wrp-3 {
+  display: flex;
+  align-items: start;
+  gap: 600px;
+  border-top: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-top: 50px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-bottom: 50px;
+}
+
+.wrp-3-p {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(40, 43, 34, 0.1882352941);
+}
+
+.wrp-3-h2 {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #282b22;
+}
+
+.wrp-3-p2 {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #282b22;
+}
+
+.wrp-3_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 0.2470588235);
+}
+
+.wrp-4 {
+  display: flex;
+  align-items: start;
+  gap: 600px;
+  border-top: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-top: 50px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-bottom: 50px;
+}
+
+.wrp-4-p {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(40, 43, 34, 0.1882352941);
+}
+
+.wrp-4-h2 {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #282b22;
+}
+
+.wrp-4-p2 {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #282b22;
+}
+
+.wrp-4_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 0.2470588235);
+}
+
+.wrp-5 {
+  display: flex;
+  align-items: start;
+  gap: 600px;
+  border-top: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-top: 50px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2470588235);
+  padding-bottom: 50px;
+}
+
+.wrp-5-p {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(40, 43, 34, 0.1882352941);
+}
+
+.wrp-5-h2 {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #282b22;
+}
+
+.wrp-5-p2 {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #282b22;
+}
+
+.wrp-5_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 0.2470588235);
 }
 
 .main {
